@@ -95,7 +95,8 @@ header {
 button {
   border: 5px solid rgba(114, 79, 79, 0.637);
   outline: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding: 3px;
   color: white;
   background-color: rgb(114, 79, 79);
@@ -297,7 +298,7 @@ footer {
 
 .html {
 	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
